@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+
+import Common from './pages/Common';
+
+import Advice from './pages/Advice';
+import Backend from './pages/Backend';
+import Frontend from './pages/Frontend';
+import Fullstack from './pages/Fullstack';
+import Home from './pages/Home';
+import Other from './pages/Other';
+import References from './pages/References';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Common />}>
+
+              <Route index element={<Home />} />
+              <Route path='advice' element={<Advice />} />
+              <Route path='frontend' element={<Frontend />} />
+              <Route path='backend' element={<Backend />} />
+              <Route path='fullstack' element={<Fullstack />} />
+              <Route path='other' element={<Other />} />
+              <Route path='references' element={<References />} />
+
+            </Route>
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
