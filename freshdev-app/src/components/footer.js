@@ -1,18 +1,11 @@
-import {NavLink} from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-import React from 'react'
-
-const header = () => {
+const footer = () => {
   return (
-    <header>
-        <div className='head-bar'>
-            <div className='d flex justify-content-between align-items-center'>
-                <div className='logo'> 
-                    <div className='brand'> FreshDev </div>
-                </div>  
-            </div>
-
-            <nav className='nav nav-pills nav-fill'>
+    <footer className='footer'>
+      <div className='container'>
+        
+        <nav className='d-flex justify-content-center'>
                 <NavLink to = '/'
                     className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
                     Home    
@@ -41,12 +34,13 @@ const header = () => {
                     className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
                     References    
                 </NavLink>
-            </nav>
-
+        </nav>
+        <div className='copyrights'>
+          &copy; 2023 <Link to="/">FreshDev</Link> - All Rights Reserved.
         </div>
-    </header>
+      </div>
+    </footer>
   )
 }
 
-export default header
-
+export default footer
