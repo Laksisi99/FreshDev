@@ -175,10 +175,11 @@ header .logo{
 }
 
 header .logo:hover{
-  transform: rotate(1deg);
+  transform: rotate(-1deg);
 }
 
 header .brand{
+  margin-left: 620px;
   width: 140px;
   font-size: 30px;
   color: #fff;
