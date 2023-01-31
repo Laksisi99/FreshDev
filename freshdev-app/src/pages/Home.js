@@ -13,10 +13,10 @@ const Home = () => {
               Also, you need to understand the basic concept, languages, etc. to learn to develop things.We are trying to give tips and knowledge about those things by not going so deep but very simply.In that matter, we will divide programming career paths into 4 parts.
             </p>
           
-              <h6>Front-end</h6>
-              <h6>Back-end</h6>
-              <h6>FullStack</h6>
-              <h6>Other</h6>
+              <h6>💻Front-end</h6>
+              <h6>💻Back-end</h6>
+              <h6>💻FullStack</h6>
+              <h6>💻Other</h6>
           
             <p>In addition to that, we will give an advice section and a References section for you...</p>
             <p>So...</p>
