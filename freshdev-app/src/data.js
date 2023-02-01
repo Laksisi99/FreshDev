@@ -1,3 +1,38 @@
+export const FULLSTACKLS = [
+    {
+        id : 1,
+        name: "MERN",
+        languages : "MongoDB, Express, React, Node",
+        description: "The MERN stack is a set of technologies that allows for faster application development. It is used by developers all over the world. The main goal of using the MERN stack is to create apps that only use JavaScript. This is due to the fact that the four technologies that comprise the technology stack are all JS-based.",
+        image: require ('./images/mern.png'),
+        more: "https://www.mongodb.com/mern-stack"
+    },
+    {
+        id : 2,
+        name: "MEAN",
+        languages : "MongoDB, Express, Angular, Node",
+        description: "MEAN is a JavaScript software stack that is free and open source for creating dynamic web sites and web applications. MERN is a variant that replaces Angular with React.",
+        image: require ('./images/mean.png'),
+        more: "https://www.mongodb.com/mean-stack"
+    },
+    {
+        id : 3,
+        name: "MEVN",
+        languages : "MongoDB, Express, Vue, Node",
+        description: "The open-source JavaScript software stack known as the MEVN stack has emerged as a new and evolving way to build powerful and dynamic web applications. Its software components can be used to efficiently design frontend and backend development while also improving the functionality of your website or app.",
+        image: require ('./images/mevn.jpeg'),
+        more: "https://www.educative.io/answers/what-is-mevn-stack"
+    },
+    {
+        id : 4,
+        name: "LAMP",
+        languages : "Linux, Apache, MySQL, PHP",
+        description: "It's one of the most widely used cloud application stacks. The stack has numerous advantages, including ease of use. However, the reasons why it became so popular and remains the go-to stack for most web development companies' servers can be attributed to its simplicity and popularity.",
+        image: require ('./images/lamp.png'),
+        more: "https://en.wikipedia.org/wiki/LAMP_(software_bundle)"
+    }
+];
+
 export const BACKENDLS = [
     {
         id : 1,

@@ -16,6 +16,8 @@ import Fullstack from './pages/Fullstack';
 import Home from './pages/Home';
 import Other from './pages/Other';
 import References from './pages/References';
+import Fullstackls from './pages/Fullstackls';
+import Singlefullstack from './pages/Singlefullstack';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
               <Route path='backendls' element={<Backendls />} />
               <Route path='backendls/:backendlId' element={<Singlebackend />} />
               <Route path='fullstack' element={<Fullstack />} />
+              <Route path='fullstackls' element={<Fullstackls />} />
+              <Route path='fullstackls/:fullstacklId' element={<Singlefullstack />} />
               <Route path='other' element={<Other />} />
               <Route path='references' element={<References />} />
 
