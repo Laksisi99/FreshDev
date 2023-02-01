@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FreshDev/static/css/main.4152cda4.css",
+    "main.js": "/FreshDev/static/js/main.06920988.js",
+    "static/js/787.d64e6949.chunk.js": "/FreshDev/static/js/787.d64e6949.chunk.js",
+    "index.html": "/FreshDev/index.html",
+    "main.4152cda4.css.map": "/FreshDev/static/css/main.4152cda4.css.map",
+    "main.06920988.js.map": "/FreshDev/static/js/main.06920988.js.map",
+    "787.d64e6949.chunk.js.map": "/FreshDev/static/js/787.d64e6949.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4152cda4.css",
+    "static/js/main.06920988.js"
+  ]
+}
