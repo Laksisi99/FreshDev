@@ -1,15 +1,15 @@
 import {useNavigate, useParams, useLocation} from 'react-router-dom';
-import {FRONTENDLS} from '../data';
+import {BACKENDLS} from '../data';
 
-const Singlefrontend = () => {
+const Singlebackend = () => {
 
   const navigate = useNavigate();
-  const {frontendlId} = useParams();
+  const {backendlId} = useParams();
   const {pathname} = useLocation();
 
-  const Singlefrontend = FRONTENDLS.find(frontendl => frontendl.id === parseInt(frontendlId))
+  const Singlebackend = BACKENDLS.find(backendl => backendl.id === parseInt(backendlId))
 
-  const { name, developed_by, latest_release, description, image, more} = Singlefrontend;
+  const { name, developed_by, latest_release, description, image,frameworks, more} = Singlebackend;
 
   return (
     <main>
@@ -33,6 +33,7 @@ const Singlefrontend = () => {
             <h2>{name}</h2>
             <p className='developer'><strong>Developed By :</strong> {developed_by}</p>
             <p className='latest'><strong>Latest Release :</strong> {latest_release}</p>
+            <p className='framework'><strong>frameworks :</strong> {frameworks}</p>
             <p>{description}</p>
             <p className='more'><strong>For More Details :</strong> <a href={more} target="_blank" rel="noopener noreferrer">
   Go to {more}
@@ -49,4 +50,4 @@ const Singlefrontend = () => {
   )
 }
 
-export default Singlefrontend
+export default Singlebackend

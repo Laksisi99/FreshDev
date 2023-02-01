@@ -1,3 +1,86 @@
+export const BACKENDLS = [
+    {
+        id : 1,
+        name: "JS - JavaScript",
+        developed_by : "Brendan Eich",
+        latest_release: "ECMAScript",
+        description: "It is an open-source client-side programming language with a strong foundation. Its main goal is to improve a user's interaction with a web page. To put it another way, you can use this programming language to increase the vibrancy and engagement of your website. JavaScript is also widely used in the creation of games and mobile applications. Excellent speed, cross-browser interoperability, and simple semantics are just a few of JavaScript's essential qualities that ensure a smooth developer experience.",
+        image: require ('./images/js.png'),
+        frameworks : "Node JS, Express JS",
+        more: "https://www.javascript.com/"
+    },
+    {
+        id : 2,
+        name: "Java",
+        developed_by : "Oracle",
+        latest_release: "Java SE 19",
+        description: "Java is a multipurpose, object-oriented programming language that is widely used in business to create large-scale web applications. The Java Enterprise Edition (Java EE) provides enterprise developers with web development technologies such as distributed computing, web services, and other features that make it simple to create complete business applications.",
+        image: require ('./images/java.png'),
+        frameworks : "Spring, JSF",
+        more: "https://www.java.com/"
+    },
+    {
+        id : 3,
+        name: "Python",
+        developed_by : "Guido van Rossum",
+        latest_release: "3.12.0a4",
+        description: "Python is a multi-paradigm programming language that is used for scripting, automation, data analytics, data visualization, machine learning, web development, and other purposes. Its simple syntax and versatility make it popular among new developers.Python is commonly used for back-end development, but it can also be used to build complete web applications with third-party frameworks such as Flask and Django. Python is particularly popular among startups because these frameworks accelerate the transition from prototypes to live sites.",
+        image: require ('./images/python.jpeg'),
+        frameworks : "django, Flask",
+        more: "https://www.python.org/"
+    },
+    {
+        id : 4,
+        name: "PHP - Hypertext Preprocessor",
+        developed_by : "Rasmus Lerdorf",
+        latest_release: "8.2.1",
+        description: "PHP does not require a compiler to function, so it can run on almost any operating system. Furthermore, the fact that it is open-source piques the interest of many developers. Because it is a backend development language, it has several features that contribute to the application's performance. It is simple to use and supports cross-platform languages.",
+        image: require ('./images/php.png'),
+        frameworks : "Laravel, CakePHP",
+        more: "https://www.php.net/"
+    },
+    {
+        id : 5,
+        name: "Ruby",
+        developed_by : "Yukihiro Matsumoto",
+        latest_release: "Ruby 3.1.0",
+        description: "Ruby supports object-oriented programming, functional programming, and procedural programming, making it suitable for a wide range of programming problems. In addition, it is a programming language that is simple to learn, making it an excellent choice for beginners. Furthermore, as a backend web development language, Ruby can be used to program a backend for almost any OS, making it useful for a wide range of applications. Ruby is regarded as a one-of-a-kind and fast programming language.",
+        image: require ('./images/ruby.jpeg'),
+        frameworks : "Ruby on Rails, Sinatra",
+        more: "https://www.ruby-lang.org/en/"
+    },
+    {
+        id : 6,
+        name: "C#",
+        developed_by : "Anders Hejlsberg (Microsoft Corporation)",
+        latest_release: "11",
+        description: "C# is also used in a variety of areas such as Windows application and game development. The C# language has many advantages, including a faster compilation rate, the ability to be updated, component-oriented, and much more.It also includes a large library that can assist developers with a faster and more detailed development process.",
+        image: require ('./images/c#.png'),
+        frameworks : ".NET Framework, ASP.NET Core",
+        more: "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+        id : 7,
+        name: "SQL - Structured Query Language",
+        developed_by : "Donald D. Chamberlin, Raymond F. Boyce",
+        latest_release: "SQL:2016",
+        description: "It is a database query language that uses queries, also known as data requests, to obtain information from the database. SQL can be used as a backend language to retrieve authentic and valuable server-side data from a database and then use that data to perform tasks that allow the client side of the application to function properly. It can be used to update internal databases and retrieve data for clients. The majority of backend developers use SQL to perform more structured and organized tasks that aid in the operation of software rather than to provide a foundation for its features.",
+        image: require ('./images/sql.png'),
+        frameworks : "SQL Translation Framework",
+        more: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
+    },
+    {
+        id : 8,
+        name: "Perl",
+        developed_by : "Larry Wall",
+        latest_release: "5.37.8",
+        description: "Perl is another backend language on our list that can be used to create the application's backend or server-side. It is a traditional programming language that is widely used in the development of client-side applications.",
+        image: require ('./images/perl.png'),
+        frameworks : "Catalyst, Dancer",
+        more: "https://www.perl.org/"
+    }
+];
+
 export const FRONTENDLS = [
     {
         id : 1,

@@ -7,6 +7,8 @@ import Common from './pages/Common';
 
 import Advice from './pages/Advice';
 import Backend from './pages/Backend';
+import Backendls from './pages/Backendls';
+import Singlebackend from './pages/Singlebackend';
 import Frontend from './pages/Frontend';
 import Frontendls from './pages/Frontendls';
 import Singlefrontend from './pages/Singlefrontend';
@@ -28,6 +30,8 @@ function App() {
               <Route path='frontendls' element={<Frontendls />} />
               <Route path='frontendls/:frontendlId' element={<Singlefrontend />} />
               <Route path='backend' element={<Backend />} />
+              <Route path='backendls' element={<Backendls />} />
+              <Route path='backendls/:backendlId' element={<Singlebackend />} />
               <Route path='fullstack' element={<Fullstack />} />
               <Route path='other' element={<Other />} />
               <Route path='references' element={<References />} />
