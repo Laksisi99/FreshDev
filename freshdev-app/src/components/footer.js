@@ -6,7 +6,7 @@ const footer = () => {
       <div className='container'>
         
         <nav className='d-flex justify-content-center'>
-                <NavLink to = '/'
+        <NavLink to = '/'
                     className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}>
                     Home    
                 </NavLink>
