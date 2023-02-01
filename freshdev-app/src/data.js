@@ -1,3 +1,42 @@
+export const REFERENCES = [
+    {
+        id : 1,
+        name: "w3schools",
+        image: require ('./images/w3schools.png'),
+        more: "https://www.w3schools.com/"
+    },
+    {
+        id : 2,
+        name: "Javapoint",
+        image: require ('./images/javapoint.png'),
+        more: "https://www.javatpoint.com/"
+    },
+    {
+        id : 3,
+        name: "Stackover Flow",
+        image: require ('./images/stackoverflow.jpeg'),
+        more: "https://stackoverflow.com/"
+    },
+    {
+        id : 4,
+        name: "Programiz",
+        image: require ('./images/programiz.jpeg'),
+        more: "https://www.programiz.com/"
+    },
+    {
+        id : 5,
+        name: "Scrimba",
+        image: require ('./images/scrimba.png'),
+        more: "https://scrimba.com/"
+    },
+    {
+        id : 6,
+        name: "GeeksforGeeks",
+        image: require ('./images/geeksforgeeks.jpeg'),
+        more: "https://www.geeksforgeeks.org/"
+    }
+];
+
 export const FULLSTACKLS = [
     {
         id : 1,
